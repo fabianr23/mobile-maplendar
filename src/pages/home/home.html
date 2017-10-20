@@ -1,0 +1,41 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>
+      Bienvenido a Mapplendar
+    </ion-title>
+    <ion-buttons end>
+      <button ion-button block (click)="logout()">Logout</button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content >
+
+   <div class = "container-home" >
+  
+    <div class="image-perfil">
+       <img src="assets/icon/mapa.jpg" />  
+    </div>
+    <div class="title-title"> {{name.first_name}} {{ name.last_name }}</div>
+   </div>
+
+  <div class="event-random">
+  <div class="title-event">
+    <p>Eventos próximos a realizarse!</p>
+  </div>
+   <div class="place-events">
+      <div class="item-event" *ngFor="let item of data; let i=index" [ngStyle]="{'background-image': 'url('+img_random[i % img_random.length]+')'}" (click)="goToEvent(event)">
+          <div class="item-event-info">
+            <h2>{{ item.name | uppercase }}</h2>
+            <p>{{ item.description }}</p>
+          </div>
+      </div>
+    </div>
+  </div>
+    
+</ion-content>
+

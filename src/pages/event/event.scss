@@ -1,0 +1,25 @@
+page-event {
+    .info-place{
+        text-align: center;
+    }
+    .round-img{
+        border-radius: 50%;
+        height: 200px;
+        width: 200px;
+        border: 9px solid #009688;
+    }
+    .item-event {
+        height: 135px;
+        //background: url(http://technode.com/wp-content/uploads/2017/03/42702038_m.jpg);
+        background-size: cover;
+        background-position-y: center;
+        margin: 5px 0px;
+    }
+    .item-event-info {
+        height: 135px;
+        background: rgba(0, 0, 0, 0.64);
+        padding: 32px 15px;
+        color: #fff;
+        text-shadow: 0 0 5px #000;
+    }
+}

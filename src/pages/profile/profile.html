@@ -1,0 +1,35 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>
+      Perfil
+    </ion-title>
+    <ion-buttons end>
+      <button ion-button block (click)="logout()">Logout</button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content >
+  
+  
+  <!-- <div class= "datos">{{ data | json }}</div>
+  <div class= "datos">{{ data.user | json }}</div> -->
+<div class = "container-principal" >
+  <div class="div-color">
+   
+  </div>
+
+  <div class="image-perfil">
+       <img src="assets/icon/mapa.jpg" />  
+    </div>
+
+  
+   <div class="datos">
+      <h1>{{ data.first_name }} {{ data.last_name }} </h1>
+      <p>{{ data.email }}</p>
+    </div>
+  </div>
+</ion-content>

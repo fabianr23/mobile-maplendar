@@ -1,0 +1,72 @@
+page-profile{
+	.title-title{
+    
+		color: white;
+		font-size: 2em;	
+		font-family: Roboto, Arial, sans-serif;
+		text-align: center;
+		margin-top: 3px; 
+		margin-bottom: 15px;
+	}
+
+	.datos{
+		position: relative;
+		font-family: Roboto, Arial, sans-serif;
+		font-size: 15px;
+		color: black;
+		margin-top: 10px;
+		padding-bottom: 10px;
+		margin-bottom: 10px;
+		width: 25%;
+		height: 35%;
+		text-align: center; 
+		margin: auto;
+		background-color: 	white;
+		min-width: 300px;
+	}
+
+	.container-principal {
+	    display: block;
+	    color: #CC0000;
+        margin: 0;
+	    padding: 10% 0;
+	    background-size: cover;
+	   height: 100%; 
+	}
+
+	.image-perfil{
+		margin-top: 10px;
+		margin: auto;
+		text-align:center;
+		margin-bottom: 15px;
+
+	}
+
+	.image-perfil img {
+		width: 35%;
+		height: 150px;
+		border-radius: 50%;
+		border: 4px solid #009688;
+		margin-top: -75px;
+	}
+
+	.bon{
+		width: 25%;
+		color: white;
+		background: Indigo;
+		border-radius: 20px; 
+		width: 100px;
+		float: middle;
+		margin-top:10px;
+		margin-left: 40%;
+	}
+
+	.div-color{
+		width: 100%;
+		height: 200px;
+		background-color: 	 #000023;
+	}
+
+
+
+}
